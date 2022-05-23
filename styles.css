@@ -91,18 +91,18 @@
     vertical-align: top;
     font-size: 18px;
 }
-.footer {
+.logos {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #9a01ae;
 }
-.footer .I4G {
+.logos .I4G {
     width: 46.8px;
     height: 30px;
     margin: 0px 5px 0px;
 }
-.footer .zuri {
+.logos .zuri {
     width: 60px;
     height: 30px;
 }
