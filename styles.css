@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #9a01ae;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 90%;
+    max-width: 440px;
+    color: #af9c9c;
+    text-align: center;
+    padding: 35px 0;
+    background-color: #24203b;
+    border-radius: 25px;
+    box-shadow: 2px 4px 30px #313131;
+    /* backdrop-filter: blur(5px); = to make the background directly underneath the card blurry (useful when it's a transparent/ glassmorphism card */
+}
+.card .hero img {
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid #9a01ae;
+    padding: 5px;
+}
+.card h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 17px;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    color: #eae7e7;
+}
+.card p {
+    font-size: 18px;
+    margin: 7px auto;
+    max-width: 330px;
+    font-weight: bold;
+}
+.card h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 30px auto;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid #9a01ae;
+    background-color: #9a01ae;
+    color: #eae7e7;
+    padding: 6px 33px;
+    border-radius: 5px;
+    margin: 10px 7px 10px;
+}
+#btn {
+    background-color: transparent;
+    border: 2px solid #9a01ae;
+}
+.btn:hover {
+    background-color: transparent;
+}
+#btn:hover {
+    background-color: #9a01ae;
+}
+.card .links h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 18px;
+    color: #eae7e7;
+    letter-spacing: .5px;
+}
+.card .links img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.card .links a div > span {
+    color: #eae7e7;
+    font-style: Black;
+    font-family: 'Roboto', sans-serif;
+    line-height: 32px;
+    vertical-align: top;
+    font-size: 18px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a01ae;
+}
+.footer .I4G {
+    width: 46.8px;
+    height: 30px;
+    margin: 0px 5px 0px;
+}
+.footer .zuri {
+    width: 60px;
+    height: 30px;
+}
